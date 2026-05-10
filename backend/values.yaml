@@ -7,7 +7,7 @@ backend:
   replicas: 2
   image:
     name: backend
-    tag: 55
+    tag: 58
   port: 8000
   connectionString: "Driver={ODBC Driver 17 for SQL Server};Server=tcp:sidharthsqlserver.database.windows.net,1433;Database=sidharthsqldatabase;Uid=sidharthsqlserver;Pwd=Sidr@j123;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
   ServicePort: 8000
